@@ -1,7 +1,10 @@
+import Card from "./Card";
+
 export default function Home() {
   return (
     <div className="hero-content">
-        <h1>Bienvenue chez kasa</h1>
+        <h1>Accueil</h1>
+        <Card />
     </div>   
   )
 }
