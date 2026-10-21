@@ -1,7 +1,11 @@
-export default function About() {
+import Header from "../pages/Header"
+
+function About() {
   return (
-    <div className="hero-content">
-        <h1>A Propos</h1>
-    </div>   
+    <div>
+      <Header />
+    </div>
   )
 }
+
+export default About

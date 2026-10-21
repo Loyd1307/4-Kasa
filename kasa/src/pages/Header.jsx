@@ -1,12 +1,13 @@
 import "./Header.css";
+import logo from "../assets/LOGO.png";
 
 export default function Header() {
   return (
     <header>
-        <img src="kasa\src\assets\LOGO.png" alt="Logo Kasa" />
+        <img src={logo} alt="Logo Kasa" />
         <nav>
           <a href="/">Accueil</a>
-          <a href="/about">À propos</a>
+          <a href="/about">A propos</a>
         </nav>
     </header>
   )

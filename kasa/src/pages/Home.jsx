@@ -1,10 +1,7 @@
 import Card from "./Card";
+import Header from "./Header";
 
 export default function Home() {
-  return (
-    <div className="hero-content">
-        <h1>Accueil</h1>
-        <Card />
-    </div>   
-  )
+  return ( <><Header /></>
+  )  
 }
