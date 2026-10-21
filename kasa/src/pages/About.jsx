@@ -1,10 +1,15 @@
 import Header from "../pages/Header"
+import Footer from "./Footer"
 
 function About() {
   return (
-    <div>
+    <>
+    
       <Header />
-    </div>
+
+      <Footer />
+
+    </>
   )
 }
 
