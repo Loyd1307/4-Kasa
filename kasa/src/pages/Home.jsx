@@ -11,6 +11,9 @@ export default function Home() {
   
     <main>
       <h1 className="home-title">Chez vous, partout et ailleurs</h1>
+      <div className="cards-container">
+        <Card />
+      </div>
     </main>
   
     <Footer />
