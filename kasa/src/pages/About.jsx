@@ -12,9 +12,7 @@ function About() {
 
       <main>
         <img className="about-logo" src={Logo2} alt="Bannière" />
-        <div className="about-collapse">
-          <Collapse />
-        </div>
+        <Collapse />
       </main>
       <Footer />
 

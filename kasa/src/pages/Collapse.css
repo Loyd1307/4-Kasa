@@ -1,34 +1,35 @@
 .collapse {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 20px;
   max-width: 1023px;
   margin: 0 auto;
   padding-bottom: 50px;
 }
 
+.collapse-container {
+  margin-bottom: 20px;
+}
+
 .collapse-title {
+  height: 52px;
+  box-sizing: border-box;
+  background-color: #ff6060;
   border-radius: 5px;
-  padding: 10px 20px;
-  background-color: #FF6060;
   color: white;
-}
-
-.collapse-title h2 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
-  margin: 0;
-  padding: 10px 0;
-  font-size: 18px;
-}
-
-.collapse-title h2 span {
   font-size: 24px;
 }
 
 .collapse-title p {
-  margin: 10px 0;
-  line-height: 1.6;
+  height: 100%;
+  margin: 0;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.collapse-texte {
+  margin: 15px 0 0;
+  padding: 0 20px;
 }
